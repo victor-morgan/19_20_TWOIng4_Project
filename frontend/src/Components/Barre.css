@@ -1,0 +1,22 @@
+
+.barre {
+   
+    height: 100%; 
+    width: 15%; 
+    background-color: rgb(209, 141, 141);
+    /* line-height: 100%; */
+    position: fixed; /* pour faire toute la hauteur */
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.barre .titre{
+    margin-top: 10%;
+    margin-left: 10%;
+  position: absolute;
+  font-weight: bold;
+    
+   
+}
+
