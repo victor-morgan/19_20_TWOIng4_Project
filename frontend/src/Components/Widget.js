@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Widget.css';
 
+import RadarChart from './RadarChart.js';
+
 class Widget extends Component {
     render() {
         return (
@@ -9,7 +11,7 @@ class Widget extends Component {
                     <div class="col-lg-2"></div>
                     <div class="col-lg-10">
                     <section class="row">
-                    <article class="col-lg-12 col-md-9 col-xs-3">
+                    <article class="col-auto">
                     <div>DASHBOARD</div>
                    <br>
                    </br>
@@ -20,31 +22,19 @@ class Widget extends Component {
 
 
                     <section class="row">
-                        <article class="col align-self-start">
+                        <article class="col-auto">
 							<div class="case">
-								<figure>
-								<figcaption>Native (Deluxe)</figcaption>
-								</figure>
-								<div>OneRepublic</div>
-								<div>17 songs</div>
+								<RadarChart/>
 							</div>
 						</article>
-						<article class="col align-self-center">
+						<article class="col-auto">
 							<div class="case">
-								<figure>
-									<figcaption>Wax Wings</figcaption>
-								</figure>
-								<div>Joshua Radin</div>
-								<div>11 songs</div>
+								<RadarChart/>
 							</div>
 						</article>
-						<article class="col align-self-end">
+						<article class="col-auto">
 							<div class="case">
-								<figure>
-									<figcaption>Modern Vampires of th...</figcaption>
-								</figure>
-								<div>Vampire Weekend</div>
-								<div>12 songs</div>
+								<RadarChart/>
 							</div>
 						</article>
                     </section>
