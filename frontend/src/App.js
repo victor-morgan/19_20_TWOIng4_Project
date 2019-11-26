@@ -3,6 +3,7 @@ import Barre from './Components/Barre.js';
 import Widget from './Components/Widget.js';
 
 import './App.css';
+import RadarChart from './Components/RadarChart.js';
 
 class App extends React.Component{
 
@@ -12,6 +13,7 @@ class App extends React.Component{
       
       <Barre/>
       <Widget/>
+      <RadarChart/>
     </div>
   );
 }

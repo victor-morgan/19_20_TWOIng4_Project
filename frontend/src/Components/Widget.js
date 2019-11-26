@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
+import './Widget.css';
+
+// import { LineChart, RadarChart } from 'recharts';
 
 class Widget extends Component {
     render() {
         return (
-            <div class="container">
+            <div class="container">             
                 <div class="row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-2"></div>       {/*  partie barre à gauche  */}   
+                    <div class="col-lg-10">          {/*  partie dashboard  */} 
+                             
                     <section class="row">
-                    <article class="col-lg-12 col-md-9 col-xs-3">
+                    <article class="col-lg-12 col-md-9 col-xs-3"> 
                     <div>DASHBOARD</div>
                    <br>
                    </br>
