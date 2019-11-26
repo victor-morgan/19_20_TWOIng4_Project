@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Widget.css';
 
 class Widget extends Component {
     render() {
@@ -18,31 +19,34 @@ class Widget extends Component {
                         </section>
 
 
-                        <section class="row">
-                        <article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Native (Deluxe)</figcaption>
-						</figure>
-						<div class="artist">OneRepublic</div>
-						<div class="count">17 songs</div>
-					</article>
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Wax Wings</figcaption>
-						</figure>
-						<div class="artist">Joshua Radin</div>
-						<div class="count">11 songs</div>
-					</article>
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Modern Vampires of th...</figcaption>
-						</figure>
-						<div class="artist">Vampire Weekend</div>
-						<div class="count">12 songs</div>
-					</article>
+                    <section class="row">
+                        <article class="col align-self-start">
+							<div class="case">
+								<figure>
+								<figcaption>Native (Deluxe)</figcaption>
+								</figure>
+								<div>OneRepublic</div>
+								<div>17 songs</div>
+							</div>
+						</article>
+						<article class="col align-self-center">
+							<div class="case">
+								<figure>
+									<figcaption>Wax Wings</figcaption>
+								</figure>
+								<div>Joshua Radin</div>
+								<div>11 songs</div>
+							</div>
+						</article>
+						<article class="col align-self-end">
+							<div class="case">
+								<figure>
+									<figcaption>Modern Vampires of th...</figcaption>
+								</figure>
+								<div>Vampire Weekend</div>
+								<div>12 songs</div>
+							</div>
+						</article>
                     </section>
 
                     <br>
@@ -51,33 +55,34 @@ class Widget extends Component {
                     </br>
 
                     <section class="row">
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Night Visions</figcaption>
-						</figure>
-						<div class="artist">Imagine Dragons</div>
-						<div class="count">11 songs</div>
-					</article>
-				
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Wax Wings</figcaption>
-						</figure>
-						<div class="artist">Joshua Radin</div>
-						<div class="count">11 songs</div>
-					</article>
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Modern Vampires of th...</figcaption>
-						</figure>
-						<div class="artist">Vampire Weekend</div>
-						<div class="count">12 songs</div>
-					</article>
-				
-</section>
+						<article class="col-sm">
+							<div class="case">
+								<figure>
+									<figcaption>Night Visions</figcaption>
+								</figure>
+								<div class="artist">ggzgzrgzrgg</div>
+								<div class="count">11 <br></br><br></br> songs</div>
+							</div>
+						</article>
+						<article class="col-sm">
+							<div class="case">
+								<figure>
+									<figcaption>Wax Wings</figcaption>
+								</figure>
+								<div class="artist">ggzgzrgzrgg</div>
+								<div class="count">11 songs</div>
+							</div>
+						</article>
+						<article class="col-sm">
+							<div class="case">
+								<figure>
+									<figcaption>Modern Vampires of th...</figcaption>
+								</figure>
+								<div class="artist">ggzgzrgzrgg</div>
+								<div class="count">12 songs</div>
+							</div>
+						</article>					
+					</section>
                         
                     </div>
                 </div>
