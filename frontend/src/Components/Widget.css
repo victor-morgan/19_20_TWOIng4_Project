@@ -1,0 +1,39 @@
+.case{
+    border: 1px solid black;
+}
+
+#albums article {
+    font-size: 0.8em;
+    color: #89949b;
+    margin: 10px 0;
+    background:black;
+}
+
+#albums article img {
+    border: 1px solid #cbcbcb;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+#albums article img:hover {
+    box-shadow: 0 0 15px #848484;
+    transform: scale(1.1) rotate(-3deg);
+}
+
+#albums article figcaption {
+    color: #4b5c66;
+    margin-top: 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#albums article .artist, #albums article .count {
+    margin-top: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#albums .explicit {
+    color: #ff5d5d;
+    margin-left: 5px;
+}

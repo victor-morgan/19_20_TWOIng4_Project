@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import './Widget.css';
+
+import PieChart from './PieChart.js';
+import AreaChart from './AreaChart.js';
+import LineChart from './LineChart.js';
+import BarChart from './BarChart.js';
+import RadialBarChart from './RadialBarChart.js';
+import RadarChart from './RadarChart.js';
 
 class Widget extends Component {
     render() {
@@ -8,7 +16,7 @@ class Widget extends Component {
                     <div class="col-lg-2"></div>
                     <div class="col-lg-10">
                     <section class="row">
-                    <article class="col-lg-12 col-md-9 col-xs-3">
+                    <article class="col-auto">
                     <div>DASHBOARD</div>
                    <br>
                    </br>
@@ -18,31 +26,22 @@ class Widget extends Component {
                         </section>
 
 
-                        <section class="row">
-                        <article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Native (Deluxe)</figcaption>
-						</figure>
-						<div class="artist">OneRepublic</div>
-						<div class="count">17 songs</div>
-					</article>
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Wax Wings</figcaption>
-						</figure>
-						<div class="artist">Joshua Radin</div>
-						<div class="count">11 songs</div>
-					</article>
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Modern Vampires of th...</figcaption>
-						</figure>
-						<div class="artist">Vampire Weekend</div>
-						<div class="count">12 songs</div>
-					</article>
+                    <section class="row">
+                        <article class="col-auto">
+							<div class="case">
+								<RadialBarChart/>
+							</div>
+						</article>
+						<article class="col-auto">
+							<div class="case">
+								<AreaChart/>
+							</div>
+						</article>
+						<article class="col-auto">
+							<div class="case">
+								<BarChart/>
+							</div>
+						</article>
                     </section>
 
                     <br>
@@ -51,33 +50,34 @@ class Widget extends Component {
                     </br>
 
                     <section class="row">
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Night Visions</figcaption>
-						</figure>
-						<div class="artist">Imagine Dragons</div>
-						<div class="count">11 songs</div>
-					</article>
-				
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Wax Wings</figcaption>
-						</figure>
-						<div class="artist">Joshua Radin</div>
-						<div class="count">11 songs</div>
-					</article>
-					<article class="col-lg-4 col-md-3 col-xs-2">
-						<figure>
-							
-							<figcaption>Modern Vampires of th...</figcaption>
-						</figure>
-						<div class="artist">Vampire Weekend</div>
-						<div class="count">12 songs</div>
-					</article>
-				
-</section>
+						<article class="col-sm">
+							<div class="case">
+								<figure>
+									<figcaption>Night Visions</figcaption>
+								</figure>
+								<div class="artist">ggzgzrgzrgg</div>
+								<div class="count">11 <br></br><br></br> songs</div>
+							</div>
+						</article>
+						<article class="col-sm">
+							<div class="case">
+								<figure>
+									<figcaption>Wax Wings</figcaption>
+								</figure>
+								<div class="artist">ggzgzrgzrgg</div>
+								<div class="count">11 songs</div>
+							</div>
+						</article>
+						<article class="col-sm">
+							<div class="case">
+								<figure>
+									<figcaption>Modern Vampires of th...</figcaption>
+								</figure>
+								<div class="artist">ggzgzrgzrgg</div>
+								<div class="count">12 songs</div>
+							</div>
+						</article>					
+					</section>
                         
                     </div>
                 </div>
