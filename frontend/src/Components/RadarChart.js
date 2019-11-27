@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './Widget.css';
 
-import { LineChart, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Legend } from 'recharts';
+import { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, Legend } from 'recharts';
 
 
 class radarChart extends Component {
     
-
-
-
-    
-  render() {const data = [
+    render() {const data = [
     {
       "subject": "Math",
       "A": 120,
