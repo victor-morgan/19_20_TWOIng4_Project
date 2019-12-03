@@ -16,20 +16,38 @@ class Widget extends Component {
                     <div class="col-lg-2"></div>
                     <div class="col-lg-10">
                     <section class="row">
-                    <article class="col-auto">
-                    <div>DASHBOARD</div>
-                   <br>
+					<article class="col-auto">
+						<div>DASHBOARD</div>
+					</article>
+                    	
+                    </section>
+
+					<br>
                    </br>
                    <br>
                    </br>
-                        </article>
-                        </section>
 
 
                     <section class="row">
                         <article class="col-auto">
 							<div class="case">
-								<RadialBarChart/>
+								<BarChart/>
+							</div>
+						</article>
+						<article class="col-auto">
+							<div class="case">
+								<PieChart/>
+							</div>
+						</article>
+                    </section>
+
+                    <br>
+                    </br>
+
+					<section class="row">
+                        <article class="col-auto">
+							<div class="case">
+								<RadarChart/>
 							</div>
 						</article>
 						<article class="col-auto">
@@ -37,51 +55,31 @@ class Widget extends Component {
 								<AreaChart/>
 							</div>
 						</article>
-						<article class="col-auto">
-							<div class="case">
-								<BarChart/>
-							</div>
-						</article>
                     </section>
 
                     <br>
                     </br>
-                    <br>
-                    </br>
 
                     <section class="row">
-						<article class="col-sm">
+						<article class="col-auto">
 							<div class="case">
-								<figure>
-									<figcaption>Night Visions</figcaption>
-								</figure>
-								<div class="artist">ggzgzrgzrgg</div>
-								<div class="count">11 <br></br><br></br> songs</div>
+								<LineChart/>
 							</div>
 						</article>
-						<article class="col-sm">
+						<article class="col-auto">
 							<div class="case">
-								<figure>
-									<figcaption>Wax Wings</figcaption>
-								</figure>
-								<div class="artist">ggzgzrgzrgg</div>
-								<div class="count">11 songs</div>
-							</div>
-						</article>
-						<article class="col-sm">
-							<div class="case">
-								<figure>
-									<figcaption>Modern Vampires of th...</figcaption>
-								</figure>
-								<div class="artist">ggzgzrgzrgg</div>
-								<div class="count">12 songs</div>
+								<RadialBarChart/>
 							</div>
 						</article>					
 					</section>
+
+					<br>
+                    </br>
                         
                     </div>
                 </div>
              </div>
+
         );
     }
 }

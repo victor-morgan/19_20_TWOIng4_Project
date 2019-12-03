@@ -46,7 +46,7 @@ class radarChart extends Component {
   ]
         return (
 
-  <RadarChart outerRadius={90} width={280} height={250} data={data}>
+  <RadarChart outerRadius={90} width={300} height={250} data={data}>
     <PolarGrid />
     <PolarAngleAxis dataKey="subject" />
     <PolarRadiusAxis angle={30} domain={[0, 150]} />
