@@ -6,8 +6,6 @@ const mongoose = require('mongoose');
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
-<<<<<<< Updated upstream
-=======
 var sensorsRouter = require("./routes/sensors");
 var measuresRouter = require("./routes/measures");
 
@@ -22,7 +20,6 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
   console.log("Connection effectuée")
 });
->>>>>>> Stashed changes
 
 
 var app = express();
@@ -34,11 +31,12 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
+app.use("/sensors", sensorsRouter);
+app.use("/measures", measuresRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

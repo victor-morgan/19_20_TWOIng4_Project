@@ -59,24 +59,14 @@ const data = [
   <RadialBarChart 
     width={300} 
     height={250} 
-<<<<<<< Updated upstream
-    innerRadius="10%" 
-    outerRadius="70%" 
-=======
     innerRadius="30%" 
     outerRadius="160%" 
->>>>>>> Stashed changes
     data={data} 
     startAngle={180} 
     endAngle={0}
   >
-<<<<<<< Updated upstream
-    <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='uv' />
-    <Legend iconSize={10} width={70} height={180} layout='vertical' verticalAlign='middle' align="right" />
-=======
     <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='Jours' />
     <Legend iconSize={10} width={300} height={80} layout='horizontal' horizontalAlign='middle' align="left" />
->>>>>>> Stashed changes
     <Tooltip />
   </RadialBarChart>
 

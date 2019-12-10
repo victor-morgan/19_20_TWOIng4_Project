@@ -9,14 +9,15 @@ class Barre extends Component {
            
                 <div class="container">
                 <aside class=" barre col-lg-2 d-none d-lg-block">  
-                    
-                     
-                            <div class="button">
-                            <Button outline color="danger" block>Autre page</Button>
-                            </div>
-                     
-                    
-                    </aside>
+                       
+                    <div class="button">
+                      <Button outline color="danger" href="/" block>Widgets</Button>
+                    </div>
+                    <div class="button">
+                      <Button outline color="danger" href="/admin" block>Admin</Button>
+                    </div>
+                         
+                </aside>
                 </div>
               
         );
