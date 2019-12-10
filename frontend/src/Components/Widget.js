@@ -31,11 +31,13 @@ class Widget extends Component {
                     <section class="row">
                         <article class="col-auto">
 							<div class="case">
+								Pollution de l'air
 								<BarChart/>
 							</div>
 						</article>
 						<article class="col-auto">
 							<div class="case">
+								Jours d'alerte pollution
 								<PieChart/>
 							</div>
 						</article>
@@ -47,11 +49,13 @@ class Widget extends Component {
 					<section class="row">
                         <article class="col-auto">
 							<div class="case">
+								Taux d'humidité par région (en %)
 								<RadarChart/>
 							</div>
 						</article>
 						<article class="col-auto">
 							<div class="case">
+								Moyenne de taux d'humidité (en %)
 								<AreaChart/>
 							</div>
 						</article>
@@ -63,11 +67,13 @@ class Widget extends Component {
                     <section class="row">
 						<article class="col-auto">
 							<div class="case">
+								Température moyenne (en °C)
 								<LineChart/>
 							</div>
 						</article>
 						<article class="col-auto">
 							<div class="case">
+								Jours par température en 2018
 								<RadialBarChart/>
 							</div>
 						</article>					

@@ -8,40 +8,40 @@ class radarChart extends Component {
     
     render() {const data = [
     {
-      "subject": "Math",
-      "A": 120,
-      "B": 110,
-      "fullMark": 150
+      "subject": "Nord",
+      "A": 58,
+      "B": 72,
+      "fullMark": 100
     },
     {
-      "subject": "Chinese",
-      "A": 98,
-      "B": 130,
-      "fullMark": 150
+      "subject": "Alsace",
+      "A": 63,
+      "B": 66,
+      "fullMark": 100
     },
     {
-      "subject": "English",
-      "A": 86,
-      "B": 130,
-      "fullMark": 150
+      "subject": "PACA",
+      "A": 31,
+      "B": 43,
+      "fullMark": 100
     },
     {
-      "subject": "Geography",
-      "A": 99,
-      "B": 100,
-      "fullMark": 150
+      "subject": "Basque",
+      "A": 23,
+      "B": 18,
+      "fullMark": 100
     },
     {
-      "subject": "Physics",
-      "A": 85,
-      "B": 90,
-      "fullMark": 150
+      "subject": "Gironde",
+      "A": 27,
+      "B": 45,
+      "fullMark": 100
     },
     {
-      "subject": "History",
-      "A": 65,
-      "B": 85,
-      "fullMark": 150
+      "subject": "Bretagne",
+      "A": 78,
+      "B": 81,
+      "fullMark": 100
     }
   ]
         return (
@@ -49,9 +49,9 @@ class radarChart extends Component {
   <RadarChart outerRadius={90} width={300} height={250} data={data}>
     <PolarGrid />
     <PolarAngleAxis dataKey="subject" />
-    <PolarRadiusAxis angle={30} domain={[0, 150]} />
-    <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
-    <Radar name="Lily" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
+    <PolarRadiusAxis angle={30} domain={[0, 100]} />
+    <Radar name="2018" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+    <Radar name="2019" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
     <Legend />
   </RadarChart>
 

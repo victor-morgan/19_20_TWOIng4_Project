@@ -10,45 +10,45 @@ class lineChart extends Component {
 
 const data = [
     {
-      "name": "Page A",
-      "uv": 4000,
-      "pv": 2400,
+      "name": "06/18",
+      "Fr": 27,
+      "Es": 31,
       "amt": 2400
     },
     {
-      "name": "Page B",
-      "uv": 3000,
-      "pv": 1398,
+      "name": "07/18",
+      "Fr": 29,
+      "Es": 33,
       "amt": 2210
     },
     {
-      "name": "Page C",
-      "uv": 2000,
-      "pv": 9800,
+      "name": "08/18",
+      "Fr": 31,
+      "Es": 35,
       "amt": 2290
     },
     {
-      "name": "Page D",
-      "uv": 2780,
-      "pv": 3908,
+      "name": "09/18",
+      "Fr": 26,
+      "Es": 25,
       "amt": 2000
     },
     {
-      "name": "Page E",
-      "uv": 1890,
-      "pv": 4800,
+      "name": "10/18",
+      "Fr": 18,
+      "Es": 20,
       "amt": 2181
     },
     {
-      "name": "Page F",
-      "uv": 2390,
-      "pv": 3800,
+      "name": "11/18",
+      "Fr": 11,
+      "Es": 14,
       "amt": 2500
     },
     {
-      "name": "Page G",
-      "uv": 3490,
-      "pv": 4300,
+      "name": "12/18",
+      "Fr": 6,
+      "Es": 8,
       "amt": 2100
     }
   ]
@@ -62,8 +62,8 @@ const data = [
     <YAxis />
     <Tooltip />
     <Legend />
-    <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-    <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+    <Line type="monotone" dataKey="Fr" stroke="#8884d8" />
+    <Line type="monotone" dataKey="Es" stroke="#82ca9d" />
   </LineChart>
 
         );

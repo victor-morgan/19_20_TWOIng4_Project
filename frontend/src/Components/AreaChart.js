@@ -10,45 +10,45 @@ class areaChart extends Component {
     render() {
 const data = [
     {
-      "name": "Page A",
-      "uv": 4000,
-      "pv": 2400,
+      "name": "06/19",
+      "Ch": 40,
+      "Ja": 43,
       "amt": 2400
     },
     {
-      "name": "Page B",
-      "uv": 3000,
-      "pv": 1398,
+      "name": "07/19",
+      "Ch": 37,
+      "Ja": 32,
       "amt": 2210
     },
     {
-      "name": "Page C",
-      "uv": 2000,
-      "pv": 9800,
+      "name": "08/19",
+      "Ch": 33,
+      "Ja": 24,
       "amt": 2290
     },
     {
-      "name": "Page D",
-      "uv": 2780,
-      "pv": 3908,
+      "name": "09/19",
+      "Ch": 39,
+      "Ja": 36,
       "amt": 2000
     },
     {
-      "name": "Page E",
-      "uv": 1890,
-      "pv": 4800,
+      "name": "10/19",
+      "Ch": 47,
+      "Ja": 53,
       "amt": 2181
     },
     {
-      "name": "Page F",
-      "uv": 2390,
-      "pv": 3800,
+      "name": "11/19",
+      "Ch": 53,
+      "Ja": 66,
       "amt": 2500
     },
     {
-      "name": "Page G",
-      "uv": 3490,
-      "pv": 4300,
+      "name": "12/19",
+      "Ch": 60,
+      "Ja": 75,
       "amt": 2100
     }
   ]
@@ -71,8 +71,8 @@ const data = [
     <YAxis />
     <CartesianGrid strokeDasharray="3 3" />
     <Tooltip />
-    <Area type="monotone" dataKey="uv" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
-    <Area type="monotone" dataKey="pv" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
+    <Area type="monotone" dataKey="Ch" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
+    <Area type="monotone" dataKey="Ja" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
   </AreaChart>
            );
     }
