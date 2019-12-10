@@ -24,7 +24,6 @@ db.once('open', function() {
 });
 >>>>>>> Stashed changes
 
-
 var app = express();
 
 app.set('views', path.join(__dirname, 'views'));
