@@ -13,20 +13,10 @@ class Widget extends Component {
         return (
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-10">
-                    <section class="row">
-					<article class="col-auto">
-						<div>DASHBOARD</div>
-					</article>
-                    	
-                    </section>
+                    <div class="col-lg"></div>
+                    <div class="col-auto">
 
-					<br>
-                   </br>
-                   <br>
-                   </br>
-
+                   <br></br>
 
                     <section class="row">
                         <article class="col-auto">
@@ -34,6 +24,7 @@ class Widget extends Component {
 								<BarChart/>
 							</div>
 						</article>
+						<br></br>
 						<article class="col-auto">
 							<div class="case">
 								<PieChart/>
@@ -50,6 +41,7 @@ class Widget extends Component {
 								<RadarChart/>
 							</div>
 						</article>
+						<br></br>
 						<article class="col-auto">
 							<div class="case">
 								<AreaChart/>
@@ -66,6 +58,7 @@ class Widget extends Component {
 								<LineChart/>
 							</div>
 						</article>
+						<br></br>
 						<article class="col-auto">
 							<div class="case">
 								<RadialBarChart/>

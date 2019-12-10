@@ -59,14 +59,14 @@ const data = [
   <RadialBarChart 
     width={300} 
     height={250} 
-    innerRadius="10%" 
-    outerRadius="70%" 
+    innerRadius="20%" 
+    outerRadius="90%" 
     data={data} 
     startAngle={180} 
     endAngle={0}
   >
     <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='uv' />
-    <Legend iconSize={10} width={70} height={180} layout='vertical' verticalAlign='middle' align="right" />
+    <Legend iconSize={10} width={100} height={180} layout='vertical' verticalAlign='middle' align="left" />
     <Tooltip />
   </RadialBarChart>
 
