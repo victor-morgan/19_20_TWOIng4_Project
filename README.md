@@ -25,6 +25,9 @@ Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelque
 
 ## Compte rendu
 
+Groupe : Valée Victor, Germanicus Louis
+OCRES Gr04
+
 Lien vers notre wireframe mockflow :
 
 https://wireframepro.mockflow.com/view/M35ae5f41a3381a6960d459c1b1ebd57b1575992796384#/page/c46c6526ea8247588195e34a7f81f225
