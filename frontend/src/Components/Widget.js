@@ -17,7 +17,6 @@ class Widget extends Component {
                     <div class="col-lg-10">
                     <section class="row">
 					<article class="col-auto">
-						<div>DASHBOARD</div>
 					</article>
                     	
                     </section>
