@@ -32,3 +32,12 @@ https://wireframepro.mockflow.com/view/M35ae5f41a3381a6960d459c1b1ebd57b15759927
 Lien vers notre airtable :
 
 https://airtable.com/invite/l?inviteId=inv2zoDmmCGwHSs7F&inviteToken=5850cf04a89c0485272641ac3bd22422bee168b2cbb3ec88ec58aaee2facff67
+
+Lien vers vidéo Loom :
+
+https://www.loom.com/share/eee527056dd74d9691d02ec038dfa2c6
+
+
+Le back est fonctionnel ainsi que le front.
+Ce qui manque est le lien entre le back et le front. En effet, le code au niveau de la page admin nous semble correct, mais elle ne peut influencer la base de donnée de mangodb et nous n'arrivons pas à corriger cela.
+C'est la même chose pour les autres liens entre le front et le back.
